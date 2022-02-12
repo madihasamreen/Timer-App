@@ -1,0 +1,32 @@
+.timer{
+    background-color: white;
+    margin: 200px;
+    margin-top: 250px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 30px;  
+}
+.time{
+    font-size: 70px;
+}
+
+.buttons{
+    display:inline-flex;
+    column-gap: 10px;
+}
+.button {
+    display: block;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight:bold;
+    cursor:pointer;
+    border: 3px solid white;
+    
+}
+.button:hover{
+    background: black;
+    color: white;
+}
+
